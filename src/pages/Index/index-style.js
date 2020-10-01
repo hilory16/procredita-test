@@ -393,7 +393,25 @@ export const Wrapper = styled.div`
             padding: 70px 20px 30px 20px;
         }
         .about .features .icon{
-            margin-bottom:40px;
+            margin-bottom:30px;
+        }
+        section h2 {
+            line-height: 45px;
+            font-size: 33px;
+        }
+        .info h4 {
+            font-size: 22px;
+            line-height:33px;
+        }
+        .testimonies .testimony{
+            margin-left:unset !important;
+            margin-right:auto;
+        }
+        .testimonies .fix {
+            margin-right:0;
+        }
+        footer .contact .placard {
+            margin-left: 10%;
         }
     }
 `;

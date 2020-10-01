@@ -71,7 +71,7 @@ class Index extends Component {
 
               <div className="features mx-auto">
                 <div className="row ft">
-                  <div className="col-lg-4 mb-4 mb-md-0 px-0">
+                  <div className="col-lg-4 mb-5 mb-md-0 px-0">
                     <div className="feature-line item">
                       <div className="d-flex justify-content-center">
                         <div className="icon d-flex justify-content-center align-items-center blue-1"> 
@@ -82,7 +82,7 @@ class Index extends Component {
                     </div>
                   </div>
 
-                  <div className="col-lg-4 mb-4 mb-md-0  px-0">
+                  <div className="col-lg-4 mb-5 mb-md-0  px-0">
                     <div className="feature-line item">
                       <div className="d-flex justify-content-center">
                         <div className="icon d-flex justify-content-center align-items-center blue-2"> 
@@ -275,7 +275,7 @@ class Index extends Component {
                   </ul>
                 </div>
 
-                <div className="col-lg-2 col-md-4">
+                <div className="col-lg-2 col-md-4 mb-4 mb-md-0">
                   <h6>Legal</h6>
                   <ul className="m-0 p-0">
                     <Link to="">

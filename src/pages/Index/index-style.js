@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
     .banner-container{
         max-height:100vh;
         position:relative;
+        overflow-y:hidden;
 
         .banner{
             overflow-y:hidden;
@@ -29,12 +30,12 @@ export const Wrapper = styled.div`
         .content{
             padding-top:95px;
             padding-bottom:20px;
-            position:relative;
+            // position:relative;
         }
         .fill{
             position:absolute;
             bottom: -5%;
-            left: 5%;
+            left: 2%;
             width:100px;
         }
     }
@@ -353,6 +354,25 @@ export const Wrapper = styled.div`
         }
     }
 
+    
+
+    @media (min-width:1300px){
+        .fill{
+            position:absolute ;
+            bottom: -7% !important;
+            left: 4% !important;
+            width:100px;
+        }
+    }
+
+    @media (min-width:1400px){
+        .fill{
+            bottom: -5% !important;
+            left: 5% !important;
+        }
+    }
+    
+
     @media (max-width:1024px){
         .about .features{
             margin-top:40px;
@@ -389,6 +409,10 @@ export const Wrapper = styled.div`
             font-size: 38px;
             line-height: 49px;
         }
+        // .nav {
+        //     top: 0px !important;
+        //     height:100vh !important;
+        // }
         .about .features {
             padding: 70px 20px 30px 20px;
         }

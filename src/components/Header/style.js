@@ -59,6 +59,9 @@ export const Wrapper = styled.div`
         .close-icon{
             width:30px;
         }
+        .left{
+            left:-100%;
+        }
     }
   
     @media (max-width:800px){

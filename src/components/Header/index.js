@@ -11,7 +11,7 @@ export default function Index({menu, setMenu}) {
             <div className=" row align-items-center ">
                 <div className="col-lg-4 col-6"><img src={require('../../assets/img/logo.svg')} alt=""/></div>
 
-                <div className="col-md-8 nav" style={{left:showNav ? "0" : "-100%"}}>
+                <div className={`col-md-8 nav ${!showNav ?  "left": ""}`} >
                   <ul className="d-lg-flex ml-auto align-items-center p-0 m-0">
                     <li className="pr-3"><Link to="/">Home</Link></li>
                     <li  className="pr-3"><Link to="/">About Us </Link></li>

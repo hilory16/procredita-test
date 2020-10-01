@@ -1,0 +1,212 @@
+/* 
+
+body{
+    font-family: 'montserrat', sans-serif;
+    overflow-x: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.pointer{
+    cursor: pointer;
+}
+.color-red{
+    color: #E41F26;
+}
+.bg-red{
+    background: #E41F26;
+}
+
+.btn-loader{
+    width: 20px;
+}
+.container{
+    padding-left:50px !important;
+    padding-right:50px !important;
+}
+
+@media (max-width:1500px){
+    .container{
+        max-width: 1350px;
+    }
+}
+
+@media (max-width:1300px){
+    .container{
+        padding-left:30px !important;
+        padding-right:30px !important;
+        max-width: 1100px;
+    }
+}
+@media (max-width:1301px){
+    .container{
+        padding-left:70px !important;
+        padding-right:70px !important;
+        max-width: 1350px;
+    }
+}
+
+@media (max-width:1100px){
+    .container{
+        padding-left:30px !important;
+        padding-right:30px !important;
+        max-width: 1050px;
+    }
+}
+
+@media (max-width:991px){
+   
+}
+
+@media (max-width:767px){
+    .scroll-md-x{
+        overflow-x: scroll;
+    }
+    .container{
+        padding-left:15px !important;
+        padding-right:15px !important;
+    }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css");
+@import "~react-image-gallery/styles/css/image-gallery.css";
+/* @import '~rc-input-number/assets/index.css'; */
+
+/* @font-face {
+  font-family: trueno;
+  src: url('../../assets/fonts/trueno/TruenoRg.ttf');
+}
+@font-face {
+  font-family: trueno-bold;
+  src: url('../../assets/fonts/trueno/TruenoBd.ttf');
+} */
+
+/* @font-face {
+  font-family: 'Trueno';
+  src: url('https://fontlibrary.org/face/trueno/assets/fonts/trueno/f6125819e866b78711583d68298888ac/d8f492a668162b9db8250f8f154078a1/TruenoBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trueno';
+  src: url('https://fontlibrary.org/face/trueno/assets/fonts/trueno/f6125819e866b78711583d68298888ac/6e3567c1458919d6a6c29e387315297e/TruenoRegular.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Trueno';
+  src: url('https://fontlibrary.org/face/trueno/assets/fonts/trueno/f6125819e866b78711583d68298888ac/d6f8e7ffae4184522e99045999732801/TruenoSemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: Trueno;
+  src: url('../../assets/fonts/trueno/TruenoBd.ttf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+} 
+
+
+@font-face {
+  font-family: Trueno;
+  src: url('../../assets/fonts/trueno/TruenoRg.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+} 
+
+
+@font-face {
+  font-family: Trueno;
+  src: url('../../assets/fonts/trueno/TruenoLt.ttf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+} 
+
+
+@font-face {
+  font-family: Trueno;
+  src: url('../../assets/fonts/trueno/TruenoBlk.ttf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+} 
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:Poppins, sans-serif;
+  overflow-x:hidden;
+  line-height: 1.6;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+.pointer{
+  cursor:pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+@media (max-width: 1200px){
+  .container {
+      max-width: 1000px;
+  }
+}
+@media (min-width: 1300px){
+  .container {
+      max-width: 1180px;
+  }
+}
+@media (min-width: 1400px){
+  .container {
+      max-width: 1200px;
+  }
+}
+/* @media (min-width: 1300px){
+  .container{
+    display: none !important;
+  }
+} */
+
+/* @media (max-width: 1200px){
+  .container, .container-md, .container-sm {
+    display: none !important;
+  }
+} */
+@media (max-width:767px){
+  .other_details .title{
+    width:100%;
+    margin-bottom:5px;
+   
+  }
+  .swal2-popup{
+    padding-right:10px !important;
+    padding-left:10px !important;
+  }
+}

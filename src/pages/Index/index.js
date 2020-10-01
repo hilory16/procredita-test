@@ -17,7 +17,7 @@ class Index extends Component {
           <div className="banner-container"> 
             <Header/>
             <div className="banner container d-flex align-items-end pt-4">
-              <div className="row content align-items-center flex-column-reverse">
+              <div className="row content align-items-center flex-column-reverse flex-lg-row">
                 <div className="col-lg-6 left mb-lg-0">
                     <h1 className="big-text ">We provide a comprehensive  debt collection  service</h1>
                     <p className="small-text">Our professionals have a combined 85 years in debt recovery efforts that have seen the recovery of more than N19Billion in debt from very unwilling debtors.

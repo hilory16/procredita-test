@@ -17,15 +17,15 @@ class Index extends Component {
           <div className="banner-container"> 
             <Header/>
             <div className="banner container d-flex align-items-end pt-4">
-              <div className="row content align-items-center ">
-                <div className="col-lg-6 left mb-4 mb-lg-0">
+              <div className="row content align-items-center flex-column-reverse">
+                <div className="col-lg-6 left mb-lg-0">
                     <h1 className="big-text ">We provide a comprehensive  debt collection  service</h1>
                     <p className="small-text">Our professionals have a combined 85 years in debt recovery efforts that have seen the recovery of more than N19Billion in debt from very unwilling debtors.
                     We use the most advanced techniques to trace debtors and recover money owed. We also offer an alternative method for loan recoveries by allowing debtors provide value worth the amount they are unable to pay.</p>
 
-                    <div className="button-container d-flex align-items-center">
+                    <div className="button-container d-flex align-items-center flex-wrap">
                       <Link to="">
-                        <div className="btn-1-pattern btn-pattern space">
+                        <div className="btn-1-pattern btn-pattern space mb-3 mb-md-0">
                           Hire Us
                         </div>
                       </Link>
@@ -37,11 +37,11 @@ class Index extends Component {
 
                 </div>
 
-                <div className="col-lg-6 right">
+                <div className="col-lg-6 right mb-4 mb-lg-0">
                     <img src={require('../../assets/img/hero.svg')} alt="" className="mx-auto"/>
                 </div>
 
-                <img src={require('../../assets/img/fill.svg')} alt="" className="fill"/>
+                <img src={require('../../assets/img/fill.svg')} alt="" className="fill d-none d-lg-block"/>
 
               </div>
             </div>

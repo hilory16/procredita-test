@@ -380,9 +380,21 @@ export const Wrapper = styled.div`
     }
     
     @media (max-width:800px){
+        .banner-container {
+            max-height: 100%;
+        }
     }
     @media (max-width:500px){
-
+        .banner-container .banner .big-text {
+            font-size: 38px;
+            line-height: 49px;
+        }
+        .about .features {
+            padding: 70px 20px 30px 20px;
+        }
+        .about .features .icon{
+            margin-bottom:40px;
+        }
     }
 `;
 

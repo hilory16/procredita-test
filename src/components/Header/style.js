@@ -34,12 +34,45 @@ export const Wrapper = styled.div`
             }
         }
     }
-
+    @media (max-width:991px){
+        .nav{
+            position:fixed;
+            top: 90px;
+            left: 0;
+            background: rgba(255,255,255,1);
+            height: calc(100vh - 90px);
+            transition:all ease .3s;
+            ul{
+                margin-left:unset !important;
+                // display:block;
+                padding-left:20px !important;
+                
+                li{
+                    margin-bottom:25px;
+                    font-size:20px;
+                }
+                a .header-btn{
+                    margin-left:0;
+                }
+            }
+        }
+        .close-icon{
+            width:30px;
+        }
+    }
   
     @media (max-width:800px){
     }
     @media (max-width:500px){
-
+        .nav ul{
+            padding-top:20px !important;
+        }
+        .menu-icon{
+            width:30px;
+        }
+        .close-icon{
+            width:20px;
+        }
     }
 `;
 
